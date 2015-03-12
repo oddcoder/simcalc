@@ -31,11 +31,19 @@ void credits()
 void help()
 {
 	puts("Allowed command");
-	puts("\tbanner : view the interpreter's banner");
-	puts("\tclear : clear the screan");
-	puts("\tcredits : view credits ");
-	puts("\thelp : view this help");
-	puts("\tq : quit");
-	puts("allowed operations");
-	puts("max input length is 100 character");
+        puts("\tbanner  : view the interpreter's banner");
+        puts("\tclear   : clear the screan");
+        puts("\tcredits : view credits ");
+        puts("\thelp    : view this help");
+        puts("\tq       : quit\n");
+        puts("allowed operations");
+        puts("\t+   : add or positive");
+        puts("\t-   : subtract or negative");
+        puts("\t*   : multiply");
+        puts("\t/   : divide");
+        puts("\t%   : mod");
+        puts("\t^   : power");
+        puts("\t( ) : priority brackets\n");
+        puts("max input length is 100 character");
+
 }
