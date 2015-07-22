@@ -1,3 +1,5 @@
+#ifndef _STACK_H
+#define _STACK_H
 //stack for storing numbers 
 typedef struct operand
 {
@@ -24,3 +26,4 @@ int push_operation(char c, operation **op);
 int pop_operation(operation **op);
 int operationempty(operation *op);
 void mkoperationemtpy(operation **op);
+#endif
